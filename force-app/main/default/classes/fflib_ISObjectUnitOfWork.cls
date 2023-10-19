@@ -43,7 +43,7 @@ public interface fflib_ISObjectUnitOfWork
     void registerNew(List<SObject> records);
     /**
      * Register a newly created SObject instance to be inserted when commitWork is called,
-     *   you may also provide a reference to the parent record instance (should also be registered as new separately)
+     *   
      * you may also provide a reference to the parent record instance (should also be registered as new separately)
      *
      * @param record A newly created SObject instance to be inserted during commitWork
