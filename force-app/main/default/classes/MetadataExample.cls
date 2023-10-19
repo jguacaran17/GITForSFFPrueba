@@ -6,7 +6,7 @@ public class MetadataExample {
         Metadata.CustomMetadataValue customField  = new Metadata.CustomMetadataValue();
         customField.field = 'customField__c';
         customField.value = 'New value';
-        
+        ////modificado porfavor borrar
         customMetadata.values.add(customField);
         
         Metadata.DeployContainer deployContainer = new Metadata.DeployContainer();
