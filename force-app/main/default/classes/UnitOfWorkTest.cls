@@ -7,7 +7,7 @@ private class UnitOfWorkTest {
                     Contact.SObjectType,
                     Note.SObjectType
             };
-
+///aqui hay una modidicacion 
     @IsTest static void challengeComplete() {
         fflib_SObjectUnitOfWork uow = new fflib_SObjectUnitOfWork(MY_SOBJECTS);
 
