@@ -36,7 +36,7 @@ public interface fflib_ISObjectUnitOfWork
      **/
     void registerNew(SObject record);
     /**
-     * Register a list of newly created SObject instances to be inserted when commitWork is called
+     * Register a list of newly created SObject instances to be inserted when commitWork is called ddd
      *
      * @param records A list of newly created SObject instances to be inserted during commitWork
      **/
